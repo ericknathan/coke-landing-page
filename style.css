@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(218, 59, 63, 0) 15.06%, #DA3B3F 100%), linear-gradient(179.29deg, #CF2425 11.93%, rgba(207, 36, 37, 0) 99.39%);
+    padding: 41px 75px; 
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    gap: 12px;
+}
+
+main {
+    width: 100%;
+    background: url(public/images/coke-background.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+main h1 {
+    color: white;
+    margin-left: -200px;
+    width: 212px;
+
+    font-family: Montserrat;
+    font-size: 36px;
+    text-align: right;
+}
+
+main img {
+    height: 90%;
+    filter: drop-shadow(0px 180px 30px rgba(0, 0, 0, 0.15));
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 720px) {
+    main {
+        flex-direction: column;
+        height: 85vh;
+    }
+
+    main h1 {
+        margin-left: 0;
+        font-size: 28px;
+        width: 180px;
+        text-align: center;
+    }
+
+    main img {
+        height: 636px;
+    }
+}
