@@ -55,17 +55,18 @@ footer {
 @media (max-width: 720px) {
     main {
         flex-direction: column;
-        height: 85vh;
+        height: 85%;
+        gap: 16px;
     }
 
     main h1 {
         margin-left: 0;
-        font-size: 28px;
-        width: 180px;
+        font-size: 2vh;
+        width: 28vw;
         text-align: center;
     }
 
     main img {
-        height: 636px;
+        height: 85%;
     }
 }
