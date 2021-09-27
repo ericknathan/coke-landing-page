@@ -19,6 +19,7 @@ header a {
     font-weight: 500;
     display: flex;
     gap: 12px;
+    height: 10%;
 }
 
 main {
@@ -30,6 +31,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    height: 80%;
 }
 
 main h1 {
@@ -50,6 +52,7 @@ main img {
 footer {
     display: flex;
     justify-content: flex-end;
+    height: 10%;
 }
 
 @media (max-width: 720px) {
